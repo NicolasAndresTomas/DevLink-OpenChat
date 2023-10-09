@@ -39,12 +39,12 @@ export const deleteUserDataFromFirestore = async (userId) => {
 
 // Firebase configuration object
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyCtRr0_ksnBdShTqQOd2xHgR_wD6Cq45WA",
+  authDomain: "deakin-web-app-cba3b.firebaseapp.com",
+  projectId: "deakin-web-app-cba3b",
+  storageBucket: "deakin-web-app-cba3b.appspot.com",
+  messagingSenderId: "812789337611",
+  appId: "1:812789337611:web:49e3533d07a2b25f49010e"
 };
 
 // Initialize the Firebase app
