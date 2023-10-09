@@ -1,0 +1,37 @@
+/* Container for the Privacy Policy Page */
+  .privacy-policy-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f8f8; 
+  }
+  
+  /* Styling for the logo image */
+  .logo-image {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the privacy policy title */
+  .privacy-policy-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000; 
+  }
+  
+  /* Styling for the privacy policy description */
+  .privacy-policy-description {
+    font-size: 15px;
+    color: #000000; 
+  }
+  
+  /* Styling for privacy policy links */
+  .privacy-policy-link {
+    text-decoration: none;
+    color: #0644ee; 
+    transition: color 0.3s ease;
+    font-size: 15px;
+  }

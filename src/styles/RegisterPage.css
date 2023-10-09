@@ -1,0 +1,59 @@
+/* Container for the Register Page */
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff; 
+}
+
+/* Styling for the symbol image */
+.symbol-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 30px; 
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0; 
+}
+
+/* Styling for the centered content */
+.centered {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center; 
+  padding: 50px 0; 
+}
+
+/* Styling for paragraphs within centered content */
+.centered p {
+  font-size: 11px;
+  color: #0644ee; 
+  margin: 5px 0; 
+}
+
+/* Styling for the first link */
+.link-1 a {
+  text-decoration: none;
+  color: #0644ee; 
+  transition: color 0.3s ease;
+  padding-right: 13px;
+  font-size: 13px;
+} 
+
+/* Styling for the second link */
+.link-2 a {
+  text-decoration: none;
+  color: #0644ee; 
+  transition: color 0.3s ease;
+  padding-left: 13px;
+  font-size: 13px;
+}
